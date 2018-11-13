@@ -1,0 +1,20 @@
+spring:
+  activemq:
+    # 虚拟机测试地址
+    broker-url: tcp://192.168.151.131:61616
+    user: admin
+    password: admin
+  # 开启发布订阅（注意：默认是没有开启发布订阅，需要手动开启）
+#  jms:
+#    pub-sub-domain: true
+  # 163 邮件服务器
+  mail:
+    host: smtp.163.com
+    username: yushengjun6442018@163.com
+    password: yushengjun644
+# 自定义队列
+my_queue:  springboot-queue
+# 自定义topic
+my_topic: springboot-topic
+server:
+  port: 8081
